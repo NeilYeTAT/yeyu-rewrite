@@ -1,5 +1,5 @@
 Function.prototype.yeApply = function (thisArg, argArray) {
-  const thisArg =
+  thisArg =
     thisArg !== null && thisArg !== undefined ? Object(thisArg) : window;
 
   const fn = Symbol();
